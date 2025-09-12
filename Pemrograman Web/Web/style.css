@@ -1,0 +1,78 @@
+body {
+    background-color: #F9FAFB;
+    color: #374151;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #E5E7EB;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #6366F1;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #6366F1;
+    margin-bottom: 10px;
+}
+
+/* Bagian konten */
+h2 {
+    color: #06B6D4;
+    border-left: 4px solid #6366F1;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #6B7280;
+}
+
+/* Keahlian */
+.keahlian span {
+    background: #6366F1;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    transition: background 0.3s ease;
+}
+
+.keahlian span:hover {
+    background: #06B6D4;
+}
+
+/* Sosial media */
+.sosial a {
+    color: #F97316;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sosial a:hover {
+    color: #06B6D4;
+    text-decoration: underline;
+}
